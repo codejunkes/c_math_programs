@@ -10,10 +10,10 @@ void main()
 
 	a[0]=2;
 	a[1]=3;
-	i=1;
+	i=2;
 	while(a[i-1]<=h)
 	{
-		a[i]=a[i-1]+1;
+		a[i]=a[i-1]+2;
 
 	rev:	for(j=0;j<=i/2;j++)
 		{
