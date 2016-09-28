@@ -1,4 +1,4 @@
-// Effecient way to find the list if prime numbers.
+// Effecient way to find the list if prime numbers in sigle thread.
 // Further improvement is to make it multi-threaded so that it will be yet more optimised.
 
 #include<stdio.h>
