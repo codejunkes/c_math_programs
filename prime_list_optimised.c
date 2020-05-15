@@ -5,7 +5,7 @@
 
 void main()
 {
-	long signed int a[350000],h=5023307,i,j,b,size;
+	long unsigned int a[350000],h=5023307,i,j,b,size;
 	size = 350000;
 	int nline = 0;
 	FILE *fp, *fp_csv;
@@ -66,7 +66,7 @@ void main()
 	fprintf(fp_csv, "Serial number, Prime \n");
 	for(j=0;j<size;j++)
 	{
-		fprintf(fp_csv, "%u,%u\n", j+1, a[j]);
+		fprintf(fp_csv, "%lu,%lu\n", j+1, a[j]);
 	}
 	fclose(fp_csv);
 }
